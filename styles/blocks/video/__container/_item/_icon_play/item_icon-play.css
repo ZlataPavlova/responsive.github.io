@@ -1,0 +1,33 @@
+.item_icon-play {
+    position: absolute;
+
+    height: 41px;
+    left: 6.09%;
+    right: 90.7%;
+    top:30px;
+    z-index: 3;
+    border-radius: 50%; 
+ 
+}
+.item_icon-play:hover {
+    transform: scale(0.8);  
+    box-shadow: 0 0 12px blue;
+ -moz-box-shadow: 0 0 12px blue;
+ -o-box-shadow: 0 0 12px blue;
+ -ms-box-shadow: 0 0 12px blue;
+ -webkit-box-shadow: 0 0 12px blue;
+}
+
+@media screen and (max-width : 425px) {
+    .item_icon-play  {
+        left: 10%;
+        top: 5%;
+    } 
+}
+
+@media screen and (min-width : 425px) and (max-width : 768px) {
+    .item_icon-play {
+        left: 10%;
+        top: 5%;
+    } 
+}

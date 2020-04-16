@@ -1,0 +1,12 @@
+@import url('./text_big.css');
+
+
+.content-row_text {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 25px;
+    
+    margin-top: 0px;
+    margin-bottom: 35px;
+}

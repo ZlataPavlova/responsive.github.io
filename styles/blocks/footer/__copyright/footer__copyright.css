@@ -1,0 +1,35 @@
+.footer__copyright {
+position: absolute;
+width: 282px;
+height: 13px;
+right: 0px;
+left:238;
+font-family: 'Inter', Arial, sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 20px;
+text-align: right;
+
+color: #FFFFFF;
+}
+
+@media screen and (max-width : 425px) {
+    .footer__copyright {
+       
+       position: relative;
+       margin-top:48px ;
+       margin-right: 18px;
+       text-align: left;
+    } 
+}
+
+@media screen and (min-width : 425px) and (max-width : 768px) {
+    .footer__copyright {
+        position: relative;
+       margin-top:48px ;
+       margin-right: 18px;
+       text-align: left;
+    } 
+}
+

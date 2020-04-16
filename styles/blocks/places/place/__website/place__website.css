@@ -1,0 +1,35 @@
+@import url('./__url-heading/website_url-heading.css');
+@import url('./__url/website_url.css');
+
+
+
+.place__website {
+    display:block;
+    position: relative;
+    justify-content: flex-start;
+    width: 484px;
+    min-height: 46px;
+    align-self:flex-end;
+    bottom: 60px;
+    
+    }
+
+    @media screen and (max-width : 425px) {
+        .place__website {
+            display:none;
+        } 
+    }
+    
+    @media screen and (min-width : 425px) and (max-width : 812px) {
+        .place__website{
+            display:none;
+            
+        } 
+    }
+    @media screen and (min-width : 812px) and (max-width : 1023px) {
+        .place__website {
+            width: 40%; 
+            top:0px;
+            margin-bottom:40px;
+        } 
+    }

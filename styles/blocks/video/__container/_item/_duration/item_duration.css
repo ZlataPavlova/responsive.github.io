@@ -1,0 +1,29 @@
+.item_duration {
+position: relative;
+max-width: 44px;
+min-height: 12px;
+margin-left: 30px;
+margin-top: 165px;
+bottom: 0px;
+z-index: 3;
+font-family:'Inter', Arial, sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 13px;
+letter-spacing: 0.3em;
+
+color: #FFFFFF;
+}
+
+@media screen and (max-width : 425px) {
+    .item_duration  {
+        margin-top: 25%;
+    } 
+}
+
+@media screen and (min-width : 425px) and (max-width : 768px) {
+    .item_duration {
+        margin-top: 25%;
+    } 
+}

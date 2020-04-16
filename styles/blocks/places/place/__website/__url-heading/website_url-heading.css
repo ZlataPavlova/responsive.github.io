@@ -1,0 +1,21 @@
+.website_url-heading{
+    position: relative;
+    max-width: 484px;
+    min-height: 12px;
+    margin-top: 0px;
+    margin-bottom:16px;
+    font-family: 'Inter', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;    
+    color: #AAAAAA;
+  
+}

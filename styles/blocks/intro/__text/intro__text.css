@@ -1,0 +1,22 @@
+.intro__text{
+    position: relative;
+    max-width: 383px;
+    max-height: 93px;
+    
+    margin-top:0px;
+    margin-bottom: 0px;
+    font-family: 'Inter', Arial, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 20px;
+    
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    color: #FFFFFF;
+  
+}
+

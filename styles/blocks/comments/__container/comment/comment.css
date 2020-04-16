@@ -1,0 +1,49 @@
+@import url('../comment/__quote/comment__quote.css');
+@import url('../comment/__author/comment__author.css');
+@import url('../comment/__image/comment__image.css');
+
+.comment {
+position: relative;
+display: block;
+
+max-width: 382px;
+min-height: 213px;
+
+
+}
+
+@media screen and (max-width : 425px) {
+    .comment {
+        flex-direction: column;
+        position: relative;
+        display: flex;
+       
+      margin: auto;
+    } 
+}
+
+@media screen and (min-width : 425px) and (max-width : 768px) {
+    .comment {
+        flex-direction: column;
+        position: relative;
+        display: flex;
+       
+        margin: auto;
+    } 
+}
+
+@media screen and (min-width : 768px) and (max-width : 1023px) {
+    .comment {
+        flex-direction: column;
+        position: relative;
+        display: flex;
+        margin: auto;
+    } 
+}
+
+@media screen and (min-width : 768px) and (max-width : 1024px) {
+    .comment {
+        width: calc((100% - 19px)/3);
+        
+    } 
+}

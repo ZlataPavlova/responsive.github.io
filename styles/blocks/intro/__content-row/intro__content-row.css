@@ -1,0 +1,13 @@
+@import url('./__text/content-row_text.css');
+
+
+.intro__content-row {
+    display:flex;
+    position:relative;
+    
+    max-width: 984px;
+    min-height: 154px;
+  
+    justify-content: flex-start;
+    margin-top:35px;
+}
